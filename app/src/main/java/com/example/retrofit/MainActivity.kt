@@ -17,6 +17,7 @@ import retrofit2.create
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 
+    // Adapter
     private val moviesAdapter by lazy { MyAdapter() }
 
     // ApiServices
