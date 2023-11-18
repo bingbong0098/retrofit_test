@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 
 
-    // adapter
+
     private val moviesAdapter by lazy { MyAdapter() }
 
     // ApiServices
